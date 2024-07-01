@@ -4,6 +4,14 @@ Obstacle navigation using A* on a toroidal grid
 Author: Daniel Ingram (daniel-s-ingram)
         Tullio Facchinetti (tullio.facchinetti@unipv.it)
 """
+
+"""
+MY COMMENT:
+This code helps a robot arm find a path in a grid with obstacles using the A* algorithm on a toroidal grid.
+The NLinkArm class represents the robot arm, and the code checks for collisions and finds a safe path from start to goal.
+Visualizations of the arm's movements and the pathfinding process are shown using Matplotlib.
+"""
+
 from math import pi
 import numpy as np
 import matplotlib.pyplot as plt
