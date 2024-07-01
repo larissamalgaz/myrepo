@@ -14,6 +14,14 @@ Ref:
 
 """
 
+"""
+MY COMMENTS:
+This code creates paths for a robot to follow using the Frenet optimal trajectory algorithm.
+It uses mathematical models to generate smooth and safe paths around obstacles.
+Visualizations of the paths and the robot's movements are shown using Matplotlib.
+"""
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import copy
