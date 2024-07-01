@@ -8,6 +8,14 @@ See Wikipedia article (https://en.wikipedia.org/wiki/Bidirectional_search)
 
 """
 
+"""
+MY COMMENT:
+This code finds a path in a grid using a bidirectional A* algorithm.
+The BidirectionalAStarPlanner class sets up the grid, searches for the path, and avoids obstacles.
+The path and search process are shown using Matplotlib for easy visualization.
+"""
+
+
 import math
 
 import matplotlib.pyplot as plt
